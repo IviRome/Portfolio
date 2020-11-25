@@ -1,0 +1,49 @@
+.leaflet-control-layers-expanded.leaflet-control-layers-minimap {
+    width: 240px;
+    background: #222831;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 1);
+    cursor:default;
+    padding: 0;
+    border-radius: 2px;
+    overflow-x: hidden;
+}
+
+.leaflet-control.layers.base{
+    background-color: aquamarine !important;
+}
+
+.leaflet-minimap-container {
+    margin-bottom: 0px;
+    position: relative;
+    display: block;
+    height: 110px;
+    background-color: transparent !important;
+}
+
+.leaflet-minimap-container:hover{
+    cursor:pointer !important;
+}
+
+.leaflet-minimap-container .leaflet-minimap-label {
+    position: absolute;
+    display: block;
+
+    height: 22px;
+    bottom: 0;
+    left: 0;
+    padding: 2px 6px 2px 2px;
+    background-color: rgba(34, 40, 49, 0.8);
+    color: #6fcc9d;
+    white-space: nowrap;
+    z-index: 1000;
+}
+.leaflet-minimap-container .leaflet-minimap-label .leaflet-control-layers-selector {
+    top: 2px;
+}
+.leaflet-minimap {
+    width: 100%;
+    height: 100%;
+}
+.leaflet-minimap-container.leaflet-minimap-hidden {
+    display: none;
+}

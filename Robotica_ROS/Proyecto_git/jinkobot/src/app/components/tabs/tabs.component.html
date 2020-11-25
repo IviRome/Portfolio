@@ -1,0 +1,21 @@
+<ion-tabs >
+  <ion-header *ngIf="_show">
+    <app-header></app-header>
+  </ion-header>
+  <ion-tab-bar slot="bottom" *ngIf="_show">
+    <ion-tab-button tab="connect">
+      <ion-icon name="qr-code"></ion-icon>
+      <ion-label>Connect</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="navigate" *ngIf="_show">
+      <ion-icon name="move"></ion-icon>
+      <ion-label>Navigation</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="games" *ngIf="_show">
+      <ion-icon name="game-controller-outline"></ion-icon>
+      <ion-label>Play</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>

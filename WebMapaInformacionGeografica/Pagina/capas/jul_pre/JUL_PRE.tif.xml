@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata xml:lang="es"><Esri><CreaDate>20191112</CreaDate><CreaTime>13464200</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process Name="Extract by Mask" ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\ExtractByMask" Date="20191112" Time="134642">ExtractByMask "C:\Users\ivrorui\Desktop\TIG\Practica 4\MODEL\JULIO.tif" Pen_Bal "C:\Users\ivrorui\Desktop\TIG\Practica 4\MODEL\JUL_PRE.tif"</Process></lineage></DataProperties></Esri></metadata>

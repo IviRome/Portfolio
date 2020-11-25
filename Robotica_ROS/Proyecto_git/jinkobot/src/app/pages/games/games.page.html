@@ -1,0 +1,57 @@
+<ion-toolbar>
+    <ion-segment>
+        <ion-segment-button
+            value="maths"
+        (click)="showEx('maths')">
+            <ion-icon
+                name="calculator-outline">
+            </ion-icon>
+        </ion-segment-button>
+        <ion-segment-button
+            value="inferences"
+        (click)="showEx('inferences')">
+                <ion-icon
+                    name="trail-sign-outline">
+                </ion-icon>
+        </ion-segment-button>
+        <ion-segment-button
+            value="emotions"
+        (click)="showEx('emotions')">
+                <ion-icon
+                    name="happy-outline">
+                </ion-icon>
+        </ion-segment-button>
+    </ion-segment>
+</ion-toolbar>
+
+<ion-content>
+    <div class="principal">
+        <ion-card *ngIf="exercise != {}" class="cuadro-texto">
+        <img [src]="src" class="imgQuestion" />
+        <ion-card-content class="response" id="pregunta">{{ question }}   </ion-card-content>
+        <ion-card-title class="feedback" >{{ feedback }}</ion-card-title>
+        </ion-card>
+
+        <ion-item style="margin-top: 16px;">
+        
+        <ion-badge [color]="infoColor" class="info"><ion-icon color="white" class="icon" name="videocam"></ion-icon>
+            <span>JINKO CAMERA LIVE</span></ion-badge>
+    </ion-item>
+
+        <games-timer class="ui"></games-timer>
+    </div>
+
+
+
+<ion-fab
+    vertical="bottom"
+    horizontal="end"
+    slot="fixed">
+    <ion-fab-button
+            [color]="fab_color" (click)="startTimer()">
+        <ion-icon
+            color="light"
+            [name]="fab_icon">
+        </ion-icon>
+    </ion-fab-button>
+</ion-fab>

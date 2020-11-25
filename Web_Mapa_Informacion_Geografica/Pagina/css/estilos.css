@@ -1,0 +1,246 @@
+html {
+    font-family: 'Nunito' !important;
+}
+
+::selection {
+    color: #222831;
+    background: white;
+}
+
+.leaflet-control-layers-expanded {
+    color: #fff !important;
+    background: #222831 !important;
+}
+
+.leaflet-top {
+    margin-right: 23rem !important;
+}
+
+leaflet-control-zoom-in {
+    background-color: #222831 !important;
+}
+
+.leaflet-container .leaflet-control-attribution {
+    background: #222831 !important;
+    background: rgba(34, 40, 49, 0.7) !important;
+    margin: 0;
+    color: white !important;
+}
+
+.leaflet-container .leaflet-control-attribution a {
+    color: #6fcc9d !important;
+}
+
+.leaflet-top .leaflet-right {
+    margin-right: 23rem !important;
+}
+
+body {
+    background-color: #222831;
+    padding-right: 0% !important;
+    padding-left: 0% !important;
+}
+
+#modal {
+    color: white;
+    padding-right: 0% !important;
+    background-color: rgba(111, 204, 157, .1) !important;
+}
+
+.modal-dialog {
+    margin-top: 1% !important;
+    margin-bottom: 0% !important;
+}
+
+.modal-content{
+    border: 0px !important;
+}
+
+.modal-header {
+    background-color: #222831 !important;
+    color: #6fcc9d !important;
+}
+
+.modal-body {
+    color: white !important;
+    background-color: #222831 !important;
+}
+
+.modal-footer {
+    background-color: #222831 !important;
+    color: white !important;
+}
+
+#textoModal {
+    overflow-x: hidden !important;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+    max-height: 480px;
+}
+
+.mi-border-bottom {
+    border-bottom: 1px solid #6fcc9d;
+}
+
+.mi-border-top {
+    border-top: 1px solid #6fcc9d;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    overflow: auto;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.titulo:hover {
+    cursor: default;
+}
+
+.verde {
+    color: #6fcc9d;
+    margin-bottom: 0px !important;
+}
+
+#mapWindow {
+    height: 100%;
+    width: 100%;
+}
+
+.row {
+    margin: 0px !important;
+}
+
+#map {
+    height: 100% !important;
+    width: 100% !important;
+    text-align: center;
+}
+
+path {
+    z-index: 490 !important;
+}
+
+.leaflet-control-layers-expanded {
+    text-align: left;
+}
+
+#imagenLocate1 {
+    height: 20px;
+    width: 20px;
+    top: 0px;
+}
+
+.fila1:hover {
+    cursor: pointer;
+    color: #6fcc9d;
+}
+
+.fila2:hover {
+    cursor: pointer;
+    color: #6fcc9d;
+}
+
+#imagenLocate2 {
+    height: 20px;
+    width: 20px;
+    top: 0px;
+}
+
+#div_DESC_ {
+    padding-top: 1rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.botonesCentrar {
+    width: 100%;
+    display: inline-block;
+}
+
+.fila1 {
+    margin: 0px !important;
+    width: 100%;
+}
+
+.fila2 {
+    width: 100%;
+    margin: 0px !important;
+    margin-top: 0.5rem !important;
+}
+
+.divLabBoton {
+    width: 100%;
+    margin-left: 0px !important;
+    margin-bottom: .25rem !important;
+    position: relative;
+}
+
+.filterlabel {
+    cursor: default;
+}
+
+#imagen {
+    height: 20px;
+    width: 20px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+#imagen:hover {
+    cursor: pointer;
+    content: url(../images/restartHover.png);
+}
+
+#div_DESC_ {
+    margin-left: 0px !important;
+}
+
+#sel_DESC_ {
+    height: 11.2rem !important;
+    font-size: 12px;
+    overflow: auto;
+    background-color: #222831;
+    color: white !important;
+}
+
+select.decorated option:hover {
+    box-shadow: 0 0 10px 100px white inset;
+}
+
+.btn-light {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    background-color: #6fcc9d !important;
+    color: white !important;
+}
+
+.btn-primary {
+    background-color: #6fcc9d !important;
+    color: white !important;
+}
+
+.sidebar {
+    width: 22rem !important;
+    z-index: 500 !important;
+    background: #222831;
+    margin-bottom: 1.2rem;
+    margin-right: .3rem;
+    margin-top: .1rem;
+}
+
+.sidebar div {}
+
+.contenido {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    width: 100% !important;
+}
