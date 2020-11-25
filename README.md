@@ -15,7 +15,7 @@ Aplicación Android de Domótica y sensores Arduino
 
 Juego de Realidad Aumentada y Virtual (video en la carpeta de este proyecto)
 -
-
+![alt text](https://raw.githubusercontent.com/IviRome/Portfolio/master/Juego_AR_VR/Vista_Rapida/Escena.jpg)
 
 Software de robótica mediante ROS con navegación autónoma de un Turtlebot (video en la carpeta de este proyecto)
 -
