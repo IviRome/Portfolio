@@ -1,0 +1,235 @@
+{"locale":"es",
+  "manifest": {
+    "displayName": "Peso", "invocationName": "Agapito", "category": "PRODUCTIVITY" },
+  "actions": [ {
+    "name": "com.example.actions.medidas", "availability": {
+      "deviceClasses": [ {"assistantSdkDevice": {} } ] },
+    "intent": {
+      "name": "com.example.intents.medidas", "parameters": [
+        { "name": "medida", "type": "Medida" }],
+      "trigger": {
+        "queryPatterns": [
+
+          "dime mi $Medida:medida",
+          "Cuánto $Medida:medida",
+          "saber $Medida:medida",
+          "ver $Medida:medida"
+
+        ]
+      }
+    },
+
+    "fulfillment": {
+      "staticFulfillment": {
+        "templatedResponse": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech":
+                "Todavía no se leer de firestore, así que,  estás en tu $medida.raw ideal. Puedes ver la información en el Log Cat"
+              }
+            },
+            {
+              "deviceExecution": {
+                "command": "com.example.commands.medidas",
+                "params": {
+                  "medida": "$medida"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+
+    {
+      "name": "com.example.actions.luces", "availability": {
+      "deviceClasses": [ {"assistantSdkDevice": {} } ] },
+      "intent": {
+        "name": "com.example.intents.luces", "parameters": [
+          {"name": "habitacion", "type": "Habitacion"},
+          {"name": "accion", "type": "Accion"}
+        ],
+        "trigger": {
+          "queryPatterns": [
+
+            "$Accion:accion",
+            "$Accion:accion las luces",
+            "oye tu, $Accion:accion",
+            "apaga la luz del comedor",
+            "cambiar luz"
+
+          ]
+        }
+      },
+
+      "fulfillment": {
+        "staticFulfillment": {
+          "templatedResponse": {
+            "items": [
+              {
+                "simpleResponse": {
+                  "textToSpeech":
+                  "He encendido o apagado la lucecita del sonof"
+                }
+              },
+              {
+                "deviceExecution": {
+                  "command": "com.example.commands.luces",
+                  "params": {
+                    "accion": "$accion",
+                    "habitacion": "$habitacion"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "com.example.actions.tomasmedidas", "availability": {
+        "deviceClasses": [ {"assistantSdkDevice": {} } ] },
+      "intent": {
+        "name": "com.example.intents.tomasmedidas",
+        "trigger": {
+          "queryPatterns": [
+
+            "Guarda (mis)? medidas",
+            "pesame"
+
+          ]
+        }
+      },
+
+      "fulfillment": {
+        "staticFulfillment": {
+          "templatedResponse": {
+            "items": [
+              {
+                "simpleResponse": {
+                  "textToSpeech":
+                  "Tomando medidas... Espera un momento por favor"
+                }
+              },
+              {
+                "deviceExecution": {
+                  "command": "com.example.commands.tomarmedidas"
+
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "com.example.actions.alertas", "availability": {
+      "deviceClasses": [ {"assistantSdkDevice": {} } ] },
+      "intent": {
+        "name": "com.example.intents.alertas",
+        "trigger": {
+          "queryPatterns": [
+
+            "borrar alertas",
+            "borra mis alertas"
+
+          ]
+        }
+      },
+
+      "fulfillment": {
+        "staticFulfillment": {
+          "templatedResponse": {
+            "items": [
+              {
+                "simpleResponse": {
+                  "textToSpeech":
+                  "alertas borradas"
+                }
+              },
+              {
+                "deviceExecution": {
+                  "command": "com.example.commands.alertas"
+
+
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+
+    {
+      "name": "com.example.actions.emergencia", "availability": {
+      "deviceClasses": [ {"assistantSdkDevice": {} } ] },
+      "intent": {
+        "name": "com.example.intents.emergencia",
+        "trigger": {
+          "queryPatterns": [
+
+            "emergencia",
+            "ayuda",
+            "socorro",
+            "Automotic ayudame",
+            "llamada de emergencia"
+
+          ]
+        }
+      },
+
+      "fulfillment": {
+        "staticFulfillment": {
+          "templatedResponse": {
+            "items": [
+              {
+                "simpleResponse": {
+                  "textToSpeech":
+                  "Llamando a contacto de emergencia"
+                }
+              },
+              {
+                "deviceExecution": {
+                  "command": "com.example.commands.emergencia"
+
+
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+
+    "types": [
+          {"name": "$Medida",
+            "entities": [
+              {"key": "medidas", "synonyms": ["ultimo registros de medidas, historial de medidas"]},
+              {"key": "peso", "synonyms": ["kilos"]},
+              {"key": "altura", "synonyms": ["alto", "mido"]},
+              {"key": "iemece", "synonyms": ["indice de masa", "indice de masa corporal", "imc", "indice de grasa"]}
+            ]
+          },
+
+          {"name": "$Habitacion",
+            "entities": [
+              {"key": "comedor"},
+              {"key": "cocina"},
+              {"key": "baño"}]
+          },
+
+          {"name": "$Accion",
+            "entities": [
+              {"key": "apagar", "synonyms": ["apagado", "apaga"]},
+              {"key": "enceder", "synonyms": ["encendido", "enciende"]}
+            ]
+          }
+    ]
+  }
+
+
+
+

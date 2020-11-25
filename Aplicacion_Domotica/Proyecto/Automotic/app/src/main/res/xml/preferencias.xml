@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="preferencias_principal" >
+
+    <PreferenceCategory android:title="Estilo de la aplicación">
+
+        <SwitchPreference
+        android:defaultValue="false"
+        android:key="oscuro"
+            android:summary="Los cambios se efectuarán al reinicar la aplicación"
+        android:title="Tono Oscuro" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Medidas">
+        <EditTextPreference
+            android:defaultValue="40"
+            android:icon="@drawable/alarma"
+            android:inputType="numberDecimal"
+            android:key="notiTemperatura"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Temperatura Alerta de calor" />
+        <EditTextPreference
+            android:defaultValue="15"
+            android:icon="@drawable/alarma2"
+            android:inputType="numberDecimal"
+            android:key="notiTemperaturaBaja"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Temperatura Alerta de frío" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Gráficas de peso/altura/IMC">
+
+        <ListPreference
+            android:defaultValue="5"
+            android:entries="@array/numMedidas"
+            android:entryValues="@array/numMedidasValores"
+            android:icon="@drawable/chart_bar"
+            android:key="numeroMedidasAMostrar"
+            android:summary="Elige el número de medidas a mostrar en las gráficas"
+            android:title="Número de medidas" />
+        <ListPreference
+            android:defaultValue="#f50d00"
+            android:entries="@array/coloresLista"
+            android:entryValues="@array/coloresStrings"
+            android:icon="@android:drawable/ic_menu_view"
+            android:key="coloresParaGraficas"
+            android:summary="Elige el color empleado en las gráficas"
+            android:title="Colores de las gráficas" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
+

@@ -1,0 +1,29 @@
+<resources>
+
+
+    <string name="app_name">Automotic</string>
+
+    <string name="tab_text_1">Casa</string>
+    <string name="tab_text_2">Medidas</string>
+    <string name="tab_text_3">Medicacion</string>
+
+
+
+    <string name="str_es">Español</string>
+    <string name="str_en" >Inglés</string>
+    <string name="str_cat">Valenciano</string>
+
+    <string name="str_peso">Peso</string>
+    <string name="str_altura">Altura</string>
+    <string name="str_imc">IMC</string>
+
+    <string-array name="languages" >
+        <item>@string/str_en</item>
+        <item>@string/str_es</item>
+        <item>@string/str_cat</item>
+    </string-array>
+
+    <string name="twitter_consumer_key" translatable="false">QmNZEnVe1xsA8i7GaNIBe6ixE</string>
+    <string name="twitter_consumer_secret" translatable="false">Srz6M582yvNHVsE28Vwmlhn10vvZBWmNSnm2lrrAEotHqXWz7Q</string>
+    <string name="luces">456</string>
+</resources>

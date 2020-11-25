@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="colorTema">
+        <item>Azul</item>
+        <item>Rojo</item>
+        <item>Rosa</item>
+        <item>Verde</item>
+    </string-array>
+
+    <string-array name="colorTemaValores">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="tamanyoLetra">
+        <item>pequeña</item>
+        <item>normal</item>
+        <item>grande</item>
+        <item>muy grande</item>
+    </string-array>
+
+    <string-array name="tamanyoLetraValores">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="sensores">
+        <item>peso</item>
+        <item>altura</item>
+        <item>presencia</item>
+    </string-array>
+
+    <string-array name="sensoresValores">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="numMedidas">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="numMedidasValores">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="coloresLista">
+        <item>Amarillo</item>
+        <item>Azul</item>
+        <item>Verde</item>
+        <item>Rojo</item>
+        <item>Blanco</item>
+        <item>Negro</item>
+    </string-array>
+
+    <string-array name="coloresStrings">
+        <item>#FFF400</item>
+        <item>#000BFF</item>
+        <item>#0BFF00</item>
+        <item>#f50d00</item>
+        <item>#f5feff</item>
+        <item>#020306</item>
+    </string-array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="fondo_login">#E0F2F7</color>
+
+    <!-- COLORES PARA LA GRÁFICA DE LOCACIZACIÓN -->
+    <color name="color_habitacion">#045FB4</color>
+    <color name="color_baño">#B40431</color>
+    <color name="color_cocina">#B45F04</color>
+    <color name="color_comedor">#04B45F</color>
+</resources>

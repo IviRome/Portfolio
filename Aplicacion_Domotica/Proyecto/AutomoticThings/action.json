@@ -1,0 +1,27 @@
+{"locale":"es",
+  "manifest": {
+    "displayName": "Peso", "invocationName": "Saber mi peso", "category": "PRODUCTIVITY" },
+  "actions": [ {
+    "name": "com.example.actions.peso", "availability": {
+      "deviceClasses": [ {"assistantSdkDevice": {} } ] },
+    "intent": {
+      "name": "com.example.intents.peso", "parameters": [
+        { "name": "medida", "type": "Medida" }], "trigger": {
+        "queryPatterns": [
+          "dime mi $Medida:medida" ] }
+    }, "fulfillment": {
+      "staticFulfillment": { "templatedResponse": {
+        "items": [ {"simpleResponse": {
+          "textToSpeech": " Lo siento, todavía no se conectarme con firestore, así que,  estás en tu $medida.raw ideal. El equipo 3 está trabajando en ello" } },
+          {"deviceExecution": {
+            "command": "com.example.commands.peso",
+            "params": {
+              "medida": "$medida"
+            }}}
+        ] }
+      } }
+
+  } ]
+}
+
+

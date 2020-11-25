@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_sincro"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:visibility="visible"
+        card_view:cardBackgroundColor="@android:color/holo_orange_dark"
+        card_view:cardElevation="5dp">
+
+        <LinearLayout
+            android:id="@+id/layout_sincro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/icono_rasp"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                card_view:srcCompat="@drawable/icono_rapsberry" />
+
+            <TextView
+                android:id="@+id/mensaje_sincro"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_weight="2"
+                android:paddingRight="13dp"
+                android:paddingTop="14dp"
+                android:text="Sincronizar usuario con Things"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                tools:text="Sincronizar usuario con Things" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/botonSincro"
+        android:layout_width="363dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Sincronizar usuario"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_margin="10dp"
+        card_view:cardBackgroundColor="#CEECF5">
+
+        <LinearLayout
+            android:id="@+id/layoutPeso"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/bascula"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                card_view:srcCompat="@drawable/peso" />
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textoPeso"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_weight="10"
+                    android:gravity="bottom|center"
+                    android:text="70.50 Kg"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/fechaPeso"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_weight="10"
+                    android:gravity="top|center"
+                    android:text="24/11/18"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card2"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_margin="10dp"
+        card_view:cardBackgroundColor="#CEECF5">
+
+        <LinearLayout
+            android:id="@+id/layoutAltura"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/regla"
+                android:layout_width="20dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:cropToPadding="false"
+                card_view:srcCompat="@drawable/regla" />
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textoAltura"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_weight="10"
+                    android:gravity="bottom|center"
+                    android:text="1.84 m"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/fechaAltura"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_weight="10"
+                    android:gravity="top|center"
+                    android:text="24/11/18"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card3"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_margin="10dp"
+        card_view:cardBackgroundColor="#CEECF5">
+
+        <LinearLayout
+            android:id="@+id/layoutIMC"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imc"
+                android:layout_width="20dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                card_view:srcCompat="@drawable/imc" />
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textoImc"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_weight="10"
+                    android:gravity="bottom|center"
+                    android:text="20.82"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/fechaImc"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_weight="10"
+                    android:gravity="top|center"
+                    android:text="24/11/18"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gti.grupo3.mislugares">
+
+<!-- PERMISOS PARA NFC -->
+
+    <uses-permission android:name="android.permission.NFC" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+
+<!-- PERMISOS PARA HACER LA LLAMADA -->
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+
+
+<!-- PERMISOS MQTT -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_automotic"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask">
+
+        </activity>
+        <activity android:name=".AcercaDeActivity"
+            android:label="Equipo 3" />
+
+        <activity android:name=".PreferenciasActivity"
+            android:label="Preferencias"
+       />
+
+        <activity android:name=".Medidas"
+            android:label="Medidas"
+            />
+
+        <activity android:name=".EditarTratamiento"/>
+
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" /> </intent-filter>
+        </activity>
+
+        <activity android:name=".UsuarioActivity"
+            android:label="Perfil" />
+
+        <activity android:name=".MedicacionActivity"
+            android:label="Medicación" />
+        <activity android:name=".GraficaActivity"/>
+
+
+        <activity android:name=".EditUsuario"
+            android:label="EditUsuario" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <service android:name=".SincroService"/>
+        <receiver android:name=".StopServiceReceiver"
+            android:enabled="true"
+            android:process=":remote"/>
+            <activity android:name=".GraficaLocalizaciones"
+                android:label="Grafica" />
+
+            <activity android:name=".CasaActivity"
+                android:label="Casa" />
+
+
+
+            <activity android:name=".NfcActivity">
+                <intent-filter>
+                    <action android:name="android.nfc.action.TECH_DISCOVERED" />
+                </intent-filter>
+                <meta-data android:name="android.nfc.action.TECH_DISCOVERED" android:resource="@xml/nfc_tech_filter" />
+            </activity>
+        <activity android:name="GraficaTemperaturaActivity"
+            android:label="Temperatura"
+            android:theme="@style/AppTheme"/>
+
+
+    </application>
+
+
+</manifest>
