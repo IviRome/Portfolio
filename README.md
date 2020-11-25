@@ -12,4 +12,16 @@ Aplicación Android de Domótica y sensores Arduino
 ![alt text](https://raw.githubusercontent.com/IviRome/Portfolio/master/Aplicacion_Domotica/Vista_Rapida/Mapa.jpg)
 ![alt text](https://raw.githubusercontent.com/IviRome/Portfolio/master/Aplicacion_Domotica/Vista_Rapida/Medidas.jpg)
 
-Software de robótica mediante ROS con navegación autónoma de un Turtlebot
+Software de robótica mediante ROS con navegación autónoma de un Turtlebot (video en la carpeta de este proyecto)
+
+Software Arduino para realizar mediciones de sensores montados por mi y mis compañeros de proyecto.
+
+Videojuego 3D con Unity y 3DSMax
+![alt text](https://raw.githubusercontent.com/IviRome/Portfolio/master/Videojuego/Vista_Rapida/Castillo.jfif)
+![alt text](https://raw.githubusercontent.com/IviRome/Portfolio/master/Videojuego/Vista_Rapida/Enemigo.jfif)
+
+Web con herramientas geoespaciales
+![alt text](https://raw.githubusercontent.com/IviRome/Portfolio/master/Web_Mapa_Informacion_Geografica/Vista_Rapida/España.PNG)
+![alt text](https://raw.githubusercontent.com/IviRome/Portfolio/master/Web_Mapa_Informacion_Geografica/Vista_Rapida/Incendio.PNG)
+
+Web para la administración de sensores y usuarios (video en la carpeta de este proyecto)
