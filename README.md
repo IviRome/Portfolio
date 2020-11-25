@@ -13,6 +13,10 @@ Aplicación Android de Domótica y sensores Arduino
 ![alt text](https://raw.githubusercontent.com/IviRome/Portfolio/master/Aplicacion_Domotica/Vista_Rapida/Mapa.jpg)
 ![alt text](https://raw.githubusercontent.com/IviRome/Portfolio/master/Aplicacion_Domotica/Vista_Rapida/Medidas.jpg)
 
+Juego de Realidad Aumentada y Virtual (video en la carpeta de este proyecto)
+-
+
+
 Software de robótica mediante ROS con navegación autónoma de un Turtlebot (video en la carpeta de este proyecto)
 -
 Software Arduino para realizar mediciones de sensores montados por mi y mis compañeros de proyecto.
