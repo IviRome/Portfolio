@@ -6,6 +6,6 @@ Hay archivos que por su tamaño no he podido subir a GitHub pero si a drive, en 
 https://drive.google.com/drive/folders/1IVuvydBiN4e3RFppDlADvTfnSIiedloj?usp=sharing
 
 
-(El proyecto está en proceso, por lo que solo hay archivos que yo haya creado)
+SalaVR es el juego en realidad virtual y BolaDeFuego…… es el de realidad aumentada (yo no le puse el nombre)
 
 ![alt text](https://raw.githubusercontent.com/IviRome/Portfolio/master/Juego_AR_VR/Vista_Rapida/Escena.jpg)
