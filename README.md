@@ -1,12 +1,11 @@
 # Portfolio de Iván Romero
 
-Soy Iván Romero, actual estudiante de 4º del Grado en Tecnologías Interactivas impartido en la Escuela Plitécnica Superior de Gandía (UPV).
-Subo este portfolio con la intención de mostrar a todos mis aptitudes y experiencia a pesar de no tener experiencia laboral en empresas.
+Soy Iván Romero, actual estudiante de 4º del Grado en Tecnologías Interactivas impartido en la Escuela Politécnica Superior de Gandía (UPV)
 
-Estoy interesado en hacer prácticas a partir de Febrero, asi que si os interesa mi trabajo, no dudeis en contactar conmigo:
+Estoy abierto a participar en cualquier tipo de proyectos relacionados con mis estudios. Para contactar conmigo no dudéis en hablarme a:
 ivan.romero.ruiz@hotmail.com
 
-Los proyectos en los que participé son los siguientes, entre otros:
+Los proyectos en los que participé durante mi vida de estudiante son los siguientes, entre otros:
 
 Aplicación Android de Domótica y sensores Arduino
 -
