@@ -1,9 +1,6 @@
 # Portfolio de Iván Romero
 
-Soy Iván Romero, actual estudiante de 4º del Grado en Tecnologías Interactivas impartido en la Escuela Politécnica Superior de Gandía (UPV)
-
-Estoy abierto a participar en cualquier tipo de proyectos relacionados con mis estudios. Para contactar conmigo no dudéis en hablarme a:
-ivan.romero.ruiz@hotmail.com
+Hola buenas, soy Iván Romero, graduado en Tecnologías Interactivas impartido en la Escuela Politécnica Superior de Gandía (UPV)
 
 Los proyectos en los que participé durante mi vida de estudiante son los siguientes, entre otros:
 
